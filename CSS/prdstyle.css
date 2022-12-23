@@ -3,5 +3,9 @@
     margin: auto;
 }
 img{
-    margin: auto;
+    margin: 30px 30px 30px 30px;
+   
+}
+body{
+    background-color: rgb(228, 237, 237);
 }
