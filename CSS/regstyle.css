@@ -1,0 +1,21 @@
+
+.reg-form{
+    width: 60%;
+    background-color: aqua;
+    margin: auto;
+    border: 2px solid rgb(17, 20, 20);
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-image: url("../Asset/form.jpg");
+}
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(9, 10, 8);
+}
+input{
+    width: 100%;
+}
+.container{
+    background-color: rgb(155, 196, 222);
+}

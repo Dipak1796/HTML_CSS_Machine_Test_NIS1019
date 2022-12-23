@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/regstyle.css">
+    <script src="../JS/formValidation.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="reg-form">
+        <h2>Registration Form</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="fstName">First Name:</label>
+                <input type="text" id="fst_name" name="fstName" placeholder="Enter First Name" >
+            </div>
+            <div class="col-md-6">
+                <label for="lstName">Last Name:</label>
+                <input type="text" id="lst_name" name="lstName"  placeholder="Enter Last Name">
+            </div>
+            <div class="col-8">
+                <label for="email">Email :</label>
+                <input type="text" id="txt_mail" name="email" placeholder="Enter Email">
+            </div>
+            <div class="col-8">
+                <label for="phoneNumber">Phone Number :</label>
+                <input type="number" id="txt_mobile" name="phoneNumber" placeholder="Enter Mobile Number">
+            </div>
+
+            <div class="col-md-6">
+                <label for="password">Password :</label>
+                <input type="password" name="password" placeholder="Enter Password">
+            </div>
+
+            <div class="col-md-6">
+                <label for="cnfPassword">Confirm Password :</label>
+                <input type="password" name="cnfPassword" placeholder="Enter Confirm Password">
+            </div>
+            <div class="col-md-10" style="margin-bottom:20px;">
+                <label for="userType">Select User</label>
+                <select name="userType" value="Select User Type">
+                    <option>Admin</option>
+                    <option>Register User</option>
+                    <option>Guest</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+           
+                <input class="btn btn-primary" type="submit" value="Register" style="margin-left: 200px;margin-bottom: 20px;">
+           
+                <input class="btn btn-danger" type="reset" value="Reset" style="margin-left: 200px;margin-bottom: 20px;">
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html> 

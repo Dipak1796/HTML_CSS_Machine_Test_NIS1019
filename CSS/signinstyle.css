@@ -1,0 +1,11 @@
+.container{
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+    background-image: url("../Asset/login.jpg");
+}
+h2{
+    text-align: center;
+    color: rgb(80, 186, 218);
+}
